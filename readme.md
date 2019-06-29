@@ -165,23 +165,23 @@ public class JPAController {
 
 1. 插入两个学生的信息
 
-![图片](https://github.com/pony-maggie/spring-boot-jpa-demo/images/1-1.jpg)
-![图片](https://github.com/pony-maggie/spring-boot-jpa-demo/images/1-2.jpg)
-![图片](https://github.com/pony-maggie/spring-boot-jpa-demo/images/1-3.jpg)
+![图片](https://github.com/pony-maggie/spring-boot-jpa-demo/blog/master/images/1-1.jpg)
+![图片](https://github.com/pony-maggie/spring-boot-jpa-demo/blog/master/images/1-2.jpg)
+![图片](https://github.com/pony-maggie/spring-boot-jpa-demo/blog/master/images/1-3.jpg)
 
 2. 查看两个学生的信息
 
-![图片](https://github.com/pony-maggie/spring-boot-jpa-demo/images/2.jpgs)
+![图片](https://github.com/pony-maggie/spring-boot-jpa-demo/blog/master/images/2.jpgs)
 
 3. 统计学生信息
 
-![图片](https://github.com/pony-maggie/spring-boot-jpa-demo/images/3.jpg)
+![图片](https://github.com/pony-maggie/spring-boot-jpa-demo/blog/master/images/3.jpg)
 
 
 4. 删除其中一个
 
-![图片](https://github.com/pony-maggie/spring-boot-jpa-demo/images/4-1.jpg)
-![图片](https://github.com/pony-maggie/spring-boot-jpa-demo/images/4-2.jpg)
+![图片](https://github.com/pony-maggie/spring-boot-jpa-demo/blog/master/images/4-1.jpg)
+![图片](https://github.com/pony-maggie/spring-boot-jpa-demo/blog/master/images/4-2.jpg)
 
 
 
