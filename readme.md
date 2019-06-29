@@ -39,7 +39,7 @@ spring data jpa不是像Hibernate那样对jpa的实现，而是更进一步做�
 
 ### spring data jpa的功能介绍
 
-spring data jpa的目的就是不想让程序员花太多时间在数据库层面的处理，所以极大的简化了这部分的工作，基本上，程序员要做的只是声明接口，然后，就没有然后了。spring data jpa帮你完成后面所有的操作。
+spring data jpa的目的就是不让程序员花太多时间在数据库层面的处理，所以极大的简化了这部分的工作，基本上程序员要做的只是声明接口，然后，就没有然后了。spring data jpa帮你完成后面所有的操作。
 
 基于spring data jpa编写持久层逻辑，一般分为如下几步：
 
@@ -47,7 +47,7 @@ spring data jpa的目的就是不想让程序员花太多时间在数据库层�
 2. 声明持久层接口，接口需要继承Repository。
 3. 接口中声明需要的方法，spring data jpa会自动给我们生成实现代码
 
-Spring data JPA主要有以下几个常用的接口：
+Spring data jpa有以下几个常用的接口：
 
 * Repository：仅仅是一个标识，表明任何继承它的均为仓库接口类，方便Spring自动扫描识别， 一般不在程序中直接使用。
 
@@ -115,7 +115,7 @@ public interface StudentRepository extends JpaRepository<Student, Long> {
 ```
 
 
-我们并不需要做其他的任何操作了，因为SpringBoot以及SpringDataJPA会为我们全部搞定。
+我们并不需要做其他的任何操作了，因为SpringBoot以及spring data jpa会为我们全部搞定。
 
 JpaRepository接口拥有基本的增删改查接口，包括：
 
@@ -124,9 +124,9 @@ JpaRepository接口拥有基本的增删改查接口，包括：
 * findOne
 * delete
 
-所以这些方法我们就不需要声明了，我们还可以添加一些规范方法名进行特定字段的查询，如果在接口中定义的查询方法符合它的命名规则，就可以不用写实现，规则是findXXBy,readAXXBy,queryXXBy,countXXBy, getXXBy后面跟属性名称。
+所以这些方法我们就不需要声明了，另外还可以添加一些规范方法名进行特定字段的查询，如果在接口中定义的查询方法符合它的命名规则，就可以不用写实现，规则是findXXBy,readAXXBy,queryXXBy,countXXBy, getXXBy后面跟属性名称。
 
-然后我们添加一个controller进行测试，
+我们添加一个controller进行测试，
 
 ```java
 @RestController
@@ -171,7 +171,7 @@ public class JPAController {
 
 2. 查看两个学生的信息
 
-![图片](https://github.com/pony-maggie/spring-boot-jpa-demo/blob/master/images/2.jpgs)
+![图片](https://github.com/pony-maggie/spring-boot-jpa-demo/blob/master/images/2.jpg)
 
 3. 统计学生信息
 
